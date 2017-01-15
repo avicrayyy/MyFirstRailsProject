@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fnc</title>
+    <title>FNC Medical and Vaccination Center</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -17,6 +17,7 @@
 
   <body>
   	<%= render 'shared/header' %>
+    <%= render 'shared/alert' %>
     <%= yield %>
     <%= render 'shared/footer' %>
   </body>
